@@ -1,0 +1,196 @@
+$text-h-color:#1C1C1C;
+$text-p-Color:#777777;
+.banner{
+    background-color: #ffffff;
+    div{
+        h1 {
+            color: $text-h-color;
+        }
+        p{
+            color: $text-p-Color;
+        }
+    }
+    .banner-img{
+        img{
+            margin: 10px 0;
+            width: 95%;
+        }
+        .tost{
+            background-color: #ffffff;
+            height: 60px;
+            width: 150px;
+            position: relative;
+            bottom: 80px;
+            left: 100px;
+            border: 1px solid #8197fa;
+            border-radius: 5px;
+            align-items: center;
+            .star{
+                i{
+                    color: #afc015;
+                    font-size: 1.5rem;
+                }
+            }
+            .tost-text{
+                padding-left: 6px;
+                h1 {
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    color: $text-h-color;
+                }
+                 p {
+                    font-size: 0.8rem;
+                    color: $text-p-Color;
+                 }
+            }
+        }
+    }
+}
+// main-section-one-head
+.main-section-one{
+    .main-section-one-head{
+        margin: 0 20%;
+    }
+    .main-section-card{
+        img {
+            margin: auto;
+        }
+        .main-card{
+            border: 0.5px solid #dad2d2;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px 2px #ccbbbb;
+            padding:  10px 20px;
+            h3{
+                margin: 10px 0;
+                font-size: 1.2rem;
+                color: $text-h-color;
+            }
+            p{
+                color: $text-p-Color;
+            }
+            &:hover{
+                background-color: #d6d2d2;
+            }
+        }
+    }
+}
+// <!-- main-section-two -->
+.main-section-two{
+    .right{
+        margin: auto;
+        h1{
+            color: $text-h-color;
+        }
+        p{
+            color: $text-p-Color;
+        }
+    }
+    .left{
+        // width: 50%;
+        .blank{
+            background-color: #d8d3d3;
+            border-radius: 10px;
+            margin-bottom: 40px ;
+        }
+        .not-blank{
+            // height: 60%;
+            padding: 10px 0;
+            background-color: #f3dfdf;
+            border-radius: 10px;
+            img{
+                margin: auto;
+            }
+        }
+    }
+}
+// main-section-three
+.section-three{
+    height: 600px;
+    border-radius:  20px ;
+    .card-left{
+        background-image: url(images/cup.png);
+        background-color: #f97316;
+        background-repeat: no-repeat;
+        background-blend-mode: overlay;
+        background-position: bottom;
+        background-size:50%;
+        padding: 20% 10%;
+        border-radius:  20px;
+    }
+    .card-right{
+        
+        .client-card{
+            background-color: #ad4444;
+            opacity: 0.5;
+            border-radius: 15px;
+            .client-card-img{
+                position: relative;
+                bottom: 10px;
+                left: -30px;
+            }
+        }
+        .client-card3{
+            background-color: #d6d2d2;
+            position: relative;
+            top: -350px;
+            right: 90px;
+            bottom: 30px;
+            opacity: 1;
+            box-shadow: #5c5959c2 10px 10px 10px 4px;
+            p{
+                color: $text-p-Color;
+            }
+        }
+    }
+}
+// 
+.N-W-text{
+    margin: 0 20%;
+    text-align: center;
+    h1{
+        color: $text-h-color;
+    }
+    p{
+        color: $text-p-Color;
+        margin: 10px 0;
+    }
+    .section-four-card-body{
+        .section-four-card {
+            margin: auto;
+        }
+    }
+}
+// footer
+footer{
+    .footer-end{
+        h1{
+            color: $text-h-color;
+        }
+        p{
+            color: $text-p-Color;
+        }
+    }
+}
+// media
+@media only screen and (max-width: 570px) {
+    .main-section-one{
+        .main-section-one-head{
+            margin: 0 0;
+        }
+    }
+    .section-three {
+        height: 890px;
+        .card-right{
+            position: absolute;
+            // height: 500px;
+            top: 665%;
+            left: 80px;
+            right: 50px;
+            .client-card3{
+                position: relative;
+                top: -350px;   
+                right: 25px;     
+            }
+        } 
+    } 
+  }

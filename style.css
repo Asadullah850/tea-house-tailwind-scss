@@ -1,0 +1,166 @@
+.banner {
+  background-color: #ffffff;
+}
+.banner div h1 {
+  color: #1C1C1C;
+}
+.banner div p {
+  color: #777777;
+}
+.banner .banner-img img {
+  margin: 10px 0;
+  width: 95%;
+}
+.banner .banner-img .tost {
+  background-color: #ffffff;
+  height: 60px;
+  width: 150px;
+  position: relative;
+  bottom: 80px;
+  left: 100px;
+  border: 1px solid #8197fa;
+  border-radius: 5px;
+  align-items: center;
+}
+.banner .banner-img .tost .star i {
+  color: #afc015;
+  font-size: 1.5rem;
+}
+.banner .banner-img .tost .tost-text {
+  padding-left: 6px;
+}
+.banner .banner-img .tost .tost-text h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1C1C1C;
+}
+.banner .banner-img .tost .tost-text p {
+  font-size: 0.8rem;
+  color: #777777;
+}
+
+.main-section-one .main-section-one-head {
+  margin: 0 20%;
+}
+.main-section-one .main-section-card img {
+  margin: auto;
+}
+.main-section-one .main-section-card .main-card {
+  border: 0.5px solid #dad2d2;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px #ccbbbb;
+  padding: 10px 20px;
+}
+.main-section-one .main-section-card .main-card h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #1C1C1C;
+}
+.main-section-one .main-section-card .main-card p {
+  color: #777777;
+}
+.main-section-one .main-section-card .main-card:hover {
+  background-color: #d6d2d2;
+}
+
+.main-section-two .right {
+  margin: auto;
+}
+.main-section-two .right h1 {
+  color: #1C1C1C;
+}
+.main-section-two .right p {
+  color: #777777;
+}
+.main-section-two .left .blank {
+  background-color: #d8d3d3;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.main-section-two .left .not-blank {
+  padding: 10px 0;
+  background-color: #f3dfdf;
+  border-radius: 10px;
+}
+.main-section-two .left .not-blank img {
+  margin: auto;
+}
+
+.section-three {
+  height: 600px;
+  border-radius: 20px;
+}
+.section-three .card-left {
+  background-image: url(images/cup.png);
+  background-color: #f97316;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-position: bottom;
+  background-size: 50%;
+  padding: 20% 10%;
+  border-radius: 20px;
+}
+.section-three .card-right .client-card {
+  background-color: #ad4444;
+  opacity: 0.5;
+  border-radius: 15px;
+}
+.section-three .card-right .client-card .client-card-img {
+  position: relative;
+  bottom: 10px;
+  left: -30px;
+}
+.section-three .card-right .client-card3 {
+  background-color: #d6d2d2;
+  position: relative;
+  top: -350px;
+  right: 90px;
+  bottom: 30px;
+  opacity: 1;
+  box-shadow: rgba(92, 89, 89, 0.7607843137) 10px 10px 10px 4px;
+}
+.section-three .card-right .client-card3 p {
+  color: #777777;
+}
+
+.N-W-text {
+  margin: 0 20%;
+  text-align: center;
+}
+.N-W-text h1 {
+  color: #1C1C1C;
+}
+.N-W-text p {
+  color: #777777;
+  margin: 10px 0;
+}
+.N-W-text .section-four-card-body .section-four-card {
+  margin: auto;
+}
+
+footer .footer-end h1 {
+  color: #1C1C1C;
+}
+footer .footer-end p {
+  color: #777777;
+}
+
+@media only screen and (max-width: 570px) {
+  .main-section-one .main-section-one-head {
+    margin: 0 0;
+  }
+  .section-three {
+    height: 890px;
+  }
+  .section-three .card-right {
+    position: absolute;
+    top: 665%;
+    left: 80px;
+    right: 50px;
+  }
+  .section-three .card-right .client-card3 {
+    position: relative;
+    top: -350px;
+    right: 25px;
+  }
+}/*# sourceMappingURL=style.css.map */
